@@ -1,0 +1,24 @@
+
+  /*package com.chainsys.main.Configuration;
+  
+  import org.springframework.context.annotation.Bean; import
+  org.springframework.context.annotation.Configuration;
+  
+  import springfox.documentation.builders.PathSelectors; 
+  import springfox.documentation.builders.RequestHandlerSelectors; 
+  import springfox.documentation.spi.DocumentationType; 
+  import springfox.documentation.spring.web.plugins.Docket;
+  
+  @Configuration 
+  public class Swagger {
+  
+  
+  @Bean 
+  public Docket SwagConfigApi() { 
+	  return new Docket
+			  (DocumentationTAype.SWAGGER_2) 
+			  .select()
+			  .apis(RequestHandlerSelectors.basePackage("com.chainsys.main.Controller"))
+			  .paths(PathSelectors.any()) .build(); }
+  
+  }*/ 
